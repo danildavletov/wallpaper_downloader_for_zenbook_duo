@@ -1,0 +1,18 @@
+{
+  "source_mode": "pexels",
+  "pexels_api_key": "YOUR_PEXELS_API_KEY",
+  "theme": "cats",
+  "min_width": 1920,
+  "min_height": 1695,
+  "exe_path": "WallpaperChanger.exe",
+  "output_dir": "./temp",
+  "test_mode": false,
+  "test_image": "demo.png",
+  "upper_width": 1920,
+  "upper_height": 1080,
+  "lower_width": 1920,
+  "lower_height": 515,
+  "offset_px": 100,
+  "orientation": "square"
+}
+

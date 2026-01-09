@@ -1,0 +1,13 @@
+{
+  "name": "wallpaper_downloader",
+  "version": "1.0.0",
+  "main": "download_wallpaper.py",
+  "scripts": {
+    "test": "echo \"set test_mode: true in config.json to try locally with the demo image\"",
+    "start": "python download_wallpaper.py",
+    "install": "pip install -r requirements.txt"
+  },
+  "author": "",
+  "license": "",
+  "description": ""
+}
