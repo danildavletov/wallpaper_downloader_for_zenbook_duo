@@ -32,7 +32,7 @@ python download_wallpaper.py
 ```
 
 The script will:
-1. Download a wallpaper from Pexels or Reddit based on your theme
+1. Download a wallpaper from Pexels (using your theme) or Reddit (random from popular subreddits)
 2. Process and crop it for both screens
 3. Apply the wallpapers using WallpaperChanger.exe
 
@@ -41,8 +41,10 @@ The script will:
 Edit `config.json` to customize:
 
 - `source_mode`: "pexels" or "reddit"
+  - **Pexels mode**: Uses the `theme` setting to search for wallpapers
+  - **Reddit mode**: Ignores `theme` and downloads random wallpapers from popular wallpaper subreddits
 - `pexels_api_key`: Your Pexels API key (optional, falls back to Reddit if not set)
-- `theme`: Search theme for wallpapers
+- `theme`: Search theme for wallpapers (only used in Pexels mode; ignored in Reddit mode)
 - `upper_width/upper_height`: Upper screen dimensions
 - `lower_width/lower_height`: Lower screen dimensions
 - `offset_px`: Pixel offset between screens
